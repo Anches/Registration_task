@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 61, 61);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(17, 141, 141);
+}
+
+a:hover{
+    color: rgb(0, 97, 97);
+}
+
+input{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    background: none;
+    border: unset;
+    color: white;
+    border-bottom: 1px solid rgb(6, 142, 151);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);   
+}
+
+button{
+    background-color: rgb(8, 77, 77);
+    border: 1px solid white;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+button:hover{
+    background-color: teal;
+}
